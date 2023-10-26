@@ -12,6 +12,7 @@ metadata:
 rules:
 - apiGroups:
   - custom.metrics.k8s.io
-  resources: ["*"]
+  resources:
+  - "*"
   verbs: ["*"]
 {{- end -}}
