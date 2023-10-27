@@ -58,6 +58,7 @@ securityContext:
 rbac:
   # Specifies whether RBAC resources should be created
   create: true
+  externalMetricsResources: ["*"]
 
 psp:
   # Specifies whether PSP resources should be created
