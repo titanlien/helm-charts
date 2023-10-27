@@ -59,6 +59,7 @@ rbac:
   # Specifies whether RBAC resources should be created
   create: true
   externalMetricsResources: ["*"]
+  customMetricsResources: ["*"]
 
 psp:
   # Specifies whether PSP resources should be created
