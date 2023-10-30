@@ -12,6 +12,6 @@ metadata:
 rules:
 - apiGroups:
   - custom.metrics.k8s.io
-  resources: ["*"]
+  resources: {{ toYaml .Values.rbac.customMetricsResources | nindent 2 }}
   verbs: ["*"]
 {{- end -}}
